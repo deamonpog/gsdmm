@@ -49,7 +49,7 @@ class MovieGroupProcess:
             Target File Path
         :return:
         '''
-        payload = {"K": self.K, "alpha":self.alpha, 'beta': self.beta, "D": self.number_docs, 'cluster_doc_count': self.cluster_doc_count,
+        payload = {"K": self.K, "alpha":self.alpha, 'beta': self.beta, "D": self.number_docs, 'vocab_size': self.vocab_size, 'cluster_doc_count': self.cluster_doc_count,
                    "cluster_word_count": self.cluster_word_count,
                    "cluster_word_distribution": self.cluster_word_distribution,
                    "n_iters": self.n_iters}
